@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DashboardModule } from './modules/dashboard/dashboard.module';
 import { AuthModule } from './modules/auth/auth.module';
 
 
@@ -15,6 +16,7 @@ import { AuthModule } from './modules/auth/auth.module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    DashboardModule,
     AuthModule
   ],
   providers: [],
