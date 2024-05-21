@@ -1,16 +1,22 @@
-<main class="border-2 border-gray-400 h-full mt-16 w-4/5 shadow-md my-0 mx-auto">
-    <figure>
-        <img src="../../../../../assets/logoIQ.png" alt="">
+<main class="flex flex-col  border-2 shadow-xl mx-auto my-16 md:my-8 lg:my-12  w-4/5 md:w-80 lg:w-80 ">
+    <figure class="w-full">
+        <img class="w-full h-full" src="../../../../../assets/logoIQ.png" alt="">
     </figure>
-    <form>
-        <div>
-            <label for="username">Usuario:</label>
-            <input type="text" id="username">
+    <form class="mx-auto w-4/5  my-6  md:my-8  xl:my-12">
+        <div class="flex flex-col mb-4 md:mb-8 ">
+            <label for="username" class="font-medium mb-2 md:mb-4 md:text-2xl xl:text-2xl">Usuario:</label>
+            <input type="text" id="password" class="border-2 rounded border-iq-light-blue focus:outline-none focus:bg-white focus:border-2 focus:border-iq-light-orange p-1 md:text-2xl xl:text-2xl" placeholder="Ingresa tu usuario">
+          </div>
+        <div class="flex flex-col mb-4 md:mb-8 ">
+            <label for="password" class="font-medium mb-2 md:mb-4 md:text-2xl xl:text-2xl">Contraseña:</label>
+            <input type="text" id="password" class="border-2 md:border-2 rounded border-iq-light-blue focus:outline-none focus:bg-white focus:border-2 focus:border-iq-light-orange p-1 md:text-2xl xl:text-2xl" placeholder="Ingresa tu contraseña">
+
         </div>
-        <div>
-            <label for="password">Contraseña:</label>
-            <input type="text" id="password">
+
+        <div class="flex justify-center mt-6 md:mt-8  ">
+          <button class="text-white w-full bg-iq-light-black hover:bg-iq-darker-orange  rounded p-3 md:text-2xl xl:text-2xl">Iniciar sesión</button>
         </div>
 
     </form>
 </main>
+
